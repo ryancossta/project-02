@@ -1,0 +1,224 @@
+body{
+    margin: 5vh;
+    background-color: ghostwhite;
+}
+
+
+
+header .spfc{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(244, 10, 10);
+    color: white;
+    border-radius: 15px;
+    margin-top: 4vh;
+}
+
+nav {
+    margin-top: 1vh;
+    border-radius: 15px;
+    padding: 20px; /* Espaçamento interno no contêiner */
+    text-align: center; /* Centraliza os links horizontalmente */
+  }
+  
+  nav a {
+    display: inline-block; /* Permite definir padding e margin */
+    padding: 10px 20px; /* Espaçamento interno: 10px topo/baixo, 20px esquerda/direita */
+    margin: 5px; /* Espaçamento externo entre os links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #100c0c; /* Cor do texto */
+    border-radius: 5px; /* Bordas arredondadas */
+  }
+  
+  nav a:hover {
+    border-radius: 15px;
+    background-color: #000000; /* Cor de fundo ao passar o mouse */
+    color: white;
+  }
+
+.history{
+    display: flex;
+    justify-content: center;
+    color: red;
+    margin-bottom: 2vh;
+}
+
+
+section.historias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaçamento entre as caixas */
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #953434; /* Cor de fundo da seção */
+  }
+  
+  .caixa {
+    border: 2px solid #000000;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    flex: 1 1 calc(33.333% - 40px); /* Faz com que as caixas ocupem 1/3 do espaço, com gap incluso */
+    box-sizing: border-box; /* Garante que o padding não afete a largura total */
+  }
+  
+  .caixa h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .caixa p {
+    color: #555;
+    line-height: 1.6;
+  }
+
+
+
+footer {
+    margin-top: 30vh;
+    background-color: #333; /* Cor de fundo do footer */
+    border-radius: 15px;
+    color: #fff; /* Cor do texto */
+    padding: 20px 0; /* Espaçamento interno */
+    text-align: center; /* Centraliza o conteúdo */
+  }
+  
+  .navF ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão da lista */
+    margin: 0; /* Remove a margem padrão da lista */
+    display: flex; /* Alinha os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens */
+    gap: 20px; /* Espaçamento entre os links */
+  }
+  
+  .navF ul li {
+    display: inline-block; /* Garante que os itens fiquem em linha */
+  }
+  
+  .navF ul li a {
+    color: #fff; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: color 0.3s ease; /* Transição suave para o efeito hover */
+  }
+  
+  .navF ul li a:hover {
+    color: #ccc; /* Cor do texto ao passar o mouse */
+  }
+
+
+
+
+  /* PÁGINA DE ÍDOLOS*/
+  .idolosP{
+    text-transform: uppercase;
+    font-size: 5rem;
+    color: red;
+  }
+
+
+  section .idolos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200000%;
+    padding: 2%;
+    background-color: #f0f0f0;
+  }
+
+  .item{
+   
+    padding: 5%;
+    background-color: #f9f9f9;
+    border-radius: 0.625rem;
+    flex: 1 1 calc(25% - 4%);
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .item .image-item{
+    width: 300px;
+    max-width: 9.375rem;
+    height: auto;
+    border-radius:0.625rem;
+    margin-bottom: 1rem;
+  }
+
+  .item h2{
+    margin-bottom: 0.625rem;
+    color: #333;
+    font-size: 1.25rem;
+  }
+
+  .item .preco{
+    color: #555;
+    font-size: 1.125rem;
+    font-weight: bold;
+  }
+
+
+
+
+  /*PÁGINA DA TORCIDA*/
+
+  /* Container do carrossel */
+#carrossel {
+    position: relative;
+    max-width: 900vh; /* Largura menor */
+    height: 400px; /* Altura menor */
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para efeito visual */
+  }
+  
+  /* Container dos slides */
+  #slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%; /* Garante que o container ocupe toda a altura */
+  }
+  
+  /* Estilo de cada slide */
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center; /* Centraliza a imagem verticalmente */
+    justify-content: center; /* Centraliza a imagem horizontalmente */
+  }
+  
+  .slide img {
+    width: 100%; /* A imagem ocupa 100% da largura do slide */
+    height: 100%; /* A imagem ocupa 100% da altura do slide */
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+    border-radius: 10px; /* Bordas arredondadas */
+  }
+  
+  /* Botões de controle */
+  .controle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+  }
+  
+  #anterior {
+    left: 10px;
+  }
+  
+  #proximo {
+    right: 10px;
+  }
+  
+  .controle:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
