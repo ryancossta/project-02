@@ -1,0 +1,183 @@
+body{
+    margin: 4vh;
+}
+
+/*PÁGINA DE HISTÓRIA*/
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    border-radius: 15px;
+    border: solid black;
+}
+
+header .spfc h1{
+    color: rgb(246, 245, 245);
+    font-family:fantasy;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: black;
+    margin: 5vh;
+    font-style: oblique;
+}
+
+nav ul a:hover{
+    background-color: black;
+    color: white;
+    padding: 2vh;
+    border-radius: 10px;
+}
+
+section{
+    margin-top: 7vh;
+    border: solid rgb(22, 21, 21);
+    border-radius: 30px;
+    background-color: aliceblue;
+}
+
+section .history{
+    padding: 1px;
+}
+
+section .text1 h2{
+    text-align: center;
+    border-radius:16px;
+    color: rgb(25, 21, 21);
+    
+}
+
+section p{
+    text-align: center;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: ghostwhite;
+    font-family:cursive
+}
+
+
+/*PÁGINA DE ÍDOLOS*/
+
+.idolos{
+    background-color: transparent;
+    border: none;
+}
+
+.idolos h1{
+    color: red;
+    font-size: 6vh;
+    font-family:fantasy;
+
+}
+
+article{
+    border: solid red;
+    border-radius: 18px;
+    background-color: aliceblue;
+    padding: 2vh;
+    margin-top: 7vh;
+}
+
+article h3{
+    display: flex;
+    justify-content: center;
+}
+
+article p{
+    text-align: center;
+    padding: 6vh;
+    font-family:cursive
+
+}
+
+article img{
+    height: 350px;
+    width: 300px;
+    border-radius: 17px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+
+
+/*PÁGINA DE TORCIDA*/
+.torcida{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+.torcida h1{
+    color: rgb(8, 11, 11);
+    margin: 0;
+    height: auto;
+    font-family:fantasy;
+
+}
+
+.torcida img{
+    width: 100px;
+    height: 100px;
+
+}
+
+.gif{
+    margin-top: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gif img{
+    border-radius: 17px;
+}
+
+.quem-somos{
+    margin-top: 7vh;
+    background-color: transparent;
+    border: solid red;
+    padding: 3vh;
+}
+
+.text1{
+    text-align: center;
+    line-height: 1.6;
+    font-family:cursive
+
+}
+
+.text1 h4{
+    padding: 10px;
+}
+
+/*FOOTER DAS PÁGINAS */
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #666666;
+    border-radius: 15px;
+    margin-top: 7vh;
+    padding: 5vh;
+}
+
+footer a{
+    text-decoration: none;
+    color: azure;
+    margin: 2vh;
+    font-style: oblique;
+
+}
