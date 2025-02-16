@@ -167,19 +167,23 @@ article img{
 
 /*FOOTER DAS PÁGINAS */
 footer{
-    display: flex;
-    justify-content: center;
+    padding: 20px;
     background-color: #666666;
     border-radius: 15px;
+    justify-content: center;
+    display: flex;
     margin-top: 7vh;
-    padding: 7vh;
+
+}
+
+footer .container{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 footer a{
     text-decoration: none;
     color: azure;
-    margin: 2vh;
+    margin: 10px;
     font-style: oblique;
-    padding: 2%;
-
 }
